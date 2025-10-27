@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "輸出 1 ~ 50 中能被 7 整除的數：" << endl;
+
+    for (int i = 1; i <= 50; i++) {
+        if (i % 7 == 0) {      
+            cout << i << " "; 
+        }
+    }
+
+    cout << endl;
+    return 0;
+}
